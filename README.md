@@ -1,1 +1,1 @@
-# Chris's Boilerplate for React + Vite
+# PlaySesh Profile

@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+h2 {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    font-family: "Noto Sans Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Typography */
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tomorrow-regular {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tomorrow-medium {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.tomorrow-semibold {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.tomorrow-bold {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.noto-sans display-regular {
+  font-family: "Noto Sans Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#root {
+    background-color: #2A2D34;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-picture {
+    width: 200px;
+    height: 200px;
+}
+
+#card {
+    border-radius: 5px;
+    background-image: url("./assets/background.jpg");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    padding: 1rem 0 0 0;
+}
+
+#profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    padding: 1rem 1rem;
+}
+
+button {
+    margin: 1rem 0 0 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #F09042;
+    color: white;
+    width: 80%;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+h2 {
+    margin: 1rem 0 0 0;
+}
+
+.tags {
+    background-color: #8D86C9;
+    font-family:'Noto Sans', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: 0.3rem;
+    font-size: 10px;
+    color: var(--white);
+    margin: 0.2rem 0.2rem;
+    color: white;
+}
+
+.tag-group {
+    display: flex;
+}
